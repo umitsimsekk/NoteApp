@@ -14,6 +14,8 @@
 		DB4FC5C929C211CA00CC9F05 /* NoteApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DB4FC5C729C211CA00CC9F05 /* NoteApp.xcdatamodeld */; };
 		DB4FC5CB29C211CB00CC9F05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB4FC5CA29C211CB00CC9F05 /* Assets.xcassets */; };
 		DB4FC5CE29C211CB00CC9F05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB4FC5CC29C211CB00CC9F05 /* LaunchScreen.storyboard */; };
+		DB4FC5D629C2138700CC9F05 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4FC5D529C2138700CC9F05 /* DetailsViewController.swift */; };
+		DB4FC5D829C21C1400CC9F05 /* NoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4FC5D729C21C1400CC9F05 /* NoteCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		DB4FC5CA29C211CB00CC9F05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB4FC5CD29C211CB00CC9F05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB4FC5CF29C211CB00CC9F05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB4FC5D529C2138700CC9F05 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		DB4FC5D729C21C1400CC9F05 /* NoteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +65,9 @@
 				DB4FC5BE29C211CA00CC9F05 /* AppDelegate.swift */,
 				DB4FC5C029C211CA00CC9F05 /* SceneDelegate.swift */,
 				DB4FC5C229C211CA00CC9F05 /* ViewController.swift */,
+				DB4FC5D529C2138700CC9F05 /* DetailsViewController.swift */,
 				DB4FC5C429C211CA00CC9F05 /* Main.storyboard */,
+				DB4FC5D729C21C1400CC9F05 /* NoteCell.swift */,
 				DB4FC5CA29C211CB00CC9F05 /* Assets.xcassets */,
 				DB4FC5CC29C211CB00CC9F05 /* LaunchScreen.storyboard */,
 				DB4FC5CF29C211CB00CC9F05 /* Info.plist */,
@@ -144,7 +150,9 @@
 				DB4FC5C329C211CA00CC9F05 /* ViewController.swift in Sources */,
 				DB4FC5BF29C211CA00CC9F05 /* AppDelegate.swift in Sources */,
 				DB4FC5C129C211CA00CC9F05 /* SceneDelegate.swift in Sources */,
+				DB4FC5D829C21C1400CC9F05 /* NoteCell.swift in Sources */,
 				DB4FC5C929C211CA00CC9F05 /* NoteApp.xcdatamodeld in Sources */,
+				DB4FC5D629C2138700CC9F05 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
